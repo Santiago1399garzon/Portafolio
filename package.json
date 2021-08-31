@@ -5,6 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "copy": "cp dist/base/index.html",
+    "prod": "ng build --prod && npm run copy",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
